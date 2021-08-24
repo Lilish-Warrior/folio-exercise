@@ -94,3 +94,38 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .navigation-links a {
+    padding: 10px 15px;
+  }
+  .primary-link {
+    padding: 10px;
+  }
+  .img-homepage {
+    display: none;
+  }
+  .img-about-me {
+    position: relative;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+  .center {
+    text-align: center;
+  }
+  .less-space {
+    margin-top: 1px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
+}
